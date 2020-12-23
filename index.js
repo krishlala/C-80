@@ -56,10 +56,3 @@ function sorting()
 
     document.getElementById("display_name_without_commas").innerHTML = remove_commas;
 }
-
-
-//Additional activity
-function new_update()
-{
-    document.getElementById("display_name_without_commas").innerHTML = "<h1>" + name_of_the_student_array +"</h1>";
-}
